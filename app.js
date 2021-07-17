@@ -45,24 +45,24 @@ addEventListener('DOMContentLoaded', function(e){
     // })
     
     
-    // promesa(tags.getCondicion(data))
-    // .then((res)=>{
-    //     console.log(res);
-    // }).catch((res)=>{
-    //     console.log(res);
-    // })
-    // promesa(tags.getCondicion(data))
-    // .then((res)=>{
-    //     console.log(res);
-    // }).catch((res)=>{
-    //     console.log(res);
-    // })
-    // promesa(tags.getCondicion(data))
-    // .then((res)=>{
-    //     console.log(res);
-    // }).catch((res)=>{
-    //     console.log(res);
-    // })
+    promesa(tags.getCondicion(data))
+    .then((res)=>{
+        console.log(res);
+    }).catch((res)=>{
+        console.log(res);
+    })
+    promesa(tags.getCondicion(data))
+    .then((res)=>{
+        console.log(res);
+    }).catch((res)=>{
+        console.log(res);
+    })
+    promesa(tags.getCondicion(data))
+    .then((res)=>{
+        console.log(res);
+    }).catch((res)=>{
+        console.log(res);
+    })
 
 
 })
