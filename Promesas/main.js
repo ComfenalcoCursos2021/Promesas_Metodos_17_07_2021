@@ -3,7 +3,7 @@ const promesa = function({...arg}){
 
         let tiempo = arg.tiempo();
         setTimeout(() => {
-            if(false){
+            if(true){
                 return resolve(`#${arg.inc} Todo Ok ${arg.id} ${tiempo/1000} Seg`);
             }else{
                 return reject(`Todo Mal`);
